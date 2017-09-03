@@ -3,9 +3,9 @@ const player = AVS.Player;
 
 const avs = new AVS({
   debug: true,
-  clientId: 'amzn1.application-oa2-client.696ab90fc5844fdbb8efc17394a79c00',
-  deviceId: 'test_device',
-  deviceSerialNumber: 123,
+  clientId: 'amzn1.application-oa2-client.91ff0abae97f4affac83cde3bde0e4ab',
+  deviceId: 'predix_alexa_voice_survey',
+  deviceSerialNumber: 1000,
   redirectUri: `https://${window.location.host}/authresponse`
 });
 window.avs = avs;
